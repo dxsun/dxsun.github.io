@@ -16,11 +16,12 @@
 
 .panel{
 	border-radius: 10px;
-	font-size:1.3em;
+	/*font-size:1.3em;*/
 	position: absolute;
 	z-index:10;
 	width:400px;
 	height:300px;
+	text-align: center;
 	/*background:#eee;*/
 	z-index:1;
 	margin: auto;
@@ -39,25 +40,32 @@
 
 
 .panel h1{
-    /*font-size:2.8em;*/
+	font-size: 3em;
     font-weight:700;
     text-align:center;
     //margin-bottom:10px;
     color:#222;
     margin-top:10px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
  }
 
  .panel .major{
+ 	font-size: 1.5em;
  	text-align: center;
  	margin-top: 0px; 
  	margin-bottom: 20px;
+ 	background-color: rgba(146,159,155, .5);
+ 	padding: 5px;
  }
 
 .panel .school{
+	font-size: 1.3em;
 	text-align: center;
 	margin-top: 0px; 
  	margin-bottom: 20px;
+ 	background-color: rgba(146,159,155, .5);
+ 	padding: 5px;
+ 	height: 28px;
 }
 
  .panel a{
@@ -68,7 +76,7 @@
 .fa-bar{
 	width: 80%;
 	margin: auto;
-	font-size: 1.4em;
+	font-size: 1.8em;
 	color: #494F4F;
 }
 
@@ -78,15 +86,17 @@
 
 }
 
-.fa-github-alt{
-	color: black;
-}
-
 .fa-stack a{
 	text-align: center;
 }
 
 
+ul {
+    overflow: auto;
+    padding: 10px;
+    height: 60px;
+}
+ 
 ul {
     overflow: auto;
     padding: 10px;
@@ -99,7 +109,6 @@ ul li {
 }
  
 ul li a i {
-    background: #205D7A;
     color: #fff;
     width: 50px;
     height: 40px;
@@ -110,6 +119,29 @@ ul li a i {
     padding-top: 15%;
     transition: all 0.2s ease-in-out;
 }
+/*ul li {
+    list-style-type: none;
+    float: left;
+    height: 50px;
+    width: 40px;
+   	margin: 4px 17.5px
+}
+
+ul li a {
+	text-align: center; 
+	vertical-align: middle;
+}
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    vertical-align: top;
+    transition: all 0.2s ease-in-out;
+}*/
 .fa-facebook {
     background:#3b5998
 } 
@@ -120,7 +152,7 @@ ul li a i {
     background:#00aced
 }
 .fa-github-alt {
-    background: black
+    background: #2F3331;
 }
 ul li a i:hover {
     opacity: .7;
