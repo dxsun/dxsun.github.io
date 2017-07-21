@@ -15,7 +15,6 @@
 }
 
 .panel{
-	border-radius: 10px;
 	/*font-size:1.3em;*/
 	position: absolute;
 	z-index:10;
@@ -76,11 +75,15 @@
  	transition: all 0.3s ease;
 }
 
+
+
 .panel .major:hover{
 	background-color: rgba(146,159,155, .5);
+	cursor: default;
 }
 .panel .school:hover{
 	background-color: rgba(146,159,155, .5);
+	cursor: default;
 }
 
 
@@ -119,11 +122,12 @@ ul li {
     width: 25%;
 }
  
+
 ul li a i {
     color: #fff;
     width: 50px;
     height: 40px;
-    border-radius: 25px;
+    border-radius: 50%;
     text-align: center;
     margin-left: 14px;
     margin-right: 5px;
@@ -158,6 +162,7 @@ ul li a i {
     vertical-align: top;
     transition: all 0.2s ease-in-out;
 }*/
+
 .fa-facebook {
     background:#3b5998
 } 
